@@ -115,7 +115,7 @@ add_shortcode('post_search', 'custom_post_search_shortcode');
 
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
-	'https://github.com/dwojt2/Custom-Breakdance-Post-Loop-Builder',
+	'https://github.com/dwojt2/Custom-Post-Search',
 	__FILE__,
 	'custom_breakdance_post_loop_builder'
 );
