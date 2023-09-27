@@ -18,8 +18,11 @@ Shortcode Style:
 
 == Changelog ==
 
-
+= 1.1.0 =
+* Fixed issue with auto-update checker.
 
 == Upgrade Notice ==
 
+= 1.1.0 = 
+* Update now to fix error with the auto-update checker!
 

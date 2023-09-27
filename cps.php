@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Custom Post Search
  * Description: A plugin with a custom search form. It also displays a post based on search results.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Dominik Wojtysiak
  * Author URI: https://wojtysiak.one
  */
@@ -113,6 +113,8 @@ function custom_post_search_shortcode($atts) {
 }
 add_shortcode('post_search', 'custom_post_search_shortcode');
 
+require 'plugin-update-checker/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
 	'https://github.com/dwojt2/Custom-Post-Search',
